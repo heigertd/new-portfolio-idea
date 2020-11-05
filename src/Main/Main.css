@@ -35,13 +35,14 @@ button:hover + .hidden-text{
 .box1, .box2, .box3{
     display: flex;
     flex: 1 1 auto;
-    margin: 5px;
+    margin: 4px;
     overflow: hidden;
     /* justify-content: center; */
     border: 5px black solid;
     border-radius: 15px;
     z-index:0;
     background: rgb(33, 219, 204);
+    box-shadow: 5px 10px #888888;
     transition:flex 0.5s ease-out;
 }
 
