@@ -8,7 +8,7 @@ export default function Main() {
     const [bigState, setBigState] = useState([]);
 
     useEffect(() => {
-        setBigState('box1');
+        setBigState('');
     }, [])
 
     function big(e){
@@ -28,7 +28,10 @@ export default function Main() {
             <div className = 'main-content'>
                 <div className = {bigState === 'box1'? 'box1 expanded' : 'box1 shrink'}>
                     <div className={bigState === 'box1'? 'hidden' : ''}>
-                        <button value = 'box1' onClick = {big}>Expand</button>
+                        <button value = 'box1' onClick = {big}>About</button>
+                        <div className = 'hidden-text'>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
                     </div>
                     <div className={bigState === 'box1'? '' : 'hidden'}>
                         <div className = 'button-div'>

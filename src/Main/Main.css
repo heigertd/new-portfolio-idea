@@ -1,6 +1,22 @@
-.me{
-    /* max-width: 100%; */
-    /* height: 80%; */
+button{
+    background: none;
+    border: none;
+    font-size: xx-large;
+    color: rgba(23, 155, 144, 0.767);
+}
+
+button:hover{
+    color: rgb(236, 114, 14);
+}
+
+button:hover + .hidden-text{
+    max-height: 100%;
+    transition: max-height 2s ease-out;
+}
+
+.hidden-text{
+    max-height: 0;
+    overflow: hidden;
 }
 
 .main-content{
@@ -17,22 +33,23 @@
     flex: 1 1 auto;
     margin: 5px;
     overflow: hidden;
-    justify-content: center;
+    /* justify-content: center; */
     border: 5px black solid;
+    border-radius: 15px;
     z-index:0;
-    background: blue;
-    transition:flex 1s ease-out;
+    background: rgb(33, 219, 204);
+    transition:flex 0.5s ease-out;
 }
 
 .img-div{
-    flex: 1 1 45%;
+    flex: 0 1 auto;
     margin: 5px;
     text-align: center;
     /* height: 80% */
 }
 
 .text-div{
-    flex: 1 1 45%;
+    flex: 0 1 45%;
     margin: 5px;
 }
 
@@ -46,21 +63,21 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .xp-div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .expanded{
     z-index: 10000;
     flex: 3 1 100%;
-    transition:flex 3s ease-out;
+    transition:flex 1s ease-out;
 }
 
 .shrink{
@@ -79,5 +96,17 @@
         position: relative;
         min-height:89vh;
         width: 99vw;
+    }
+
+    .img-div{
+        flex: 1 1 auto;
+        margin: 5px;
+        text-align: center;
+        /* height: 80% */
+    }
+    
+    .text-div{
+        flex: 1 1 45%;
+        margin: 5px;
     }
 }
