@@ -24,7 +24,7 @@ button:hover + .hidden-text{
 
 .all-div{
     height: 100vh;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 .hidden-text{
@@ -34,7 +34,6 @@ button:hover + .hidden-text{
 
 .main-content{
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
     position: relative;
     min-height:89vh;
@@ -44,10 +43,7 @@ button:hover + .hidden-text{
 .box1, .box2, .box3{
     display: flex;
     flex: 1 1 auto;
-    /* height: 89vh; */
-    margin: 4px;
-    /* overflow: scroll; */
-    /* justify-content: center; */
+    margin: 0 4px;
     border: 5px black solid;
     border-radius: 15px;
     z-index:0;
@@ -60,7 +56,6 @@ button:hover + .hidden-text{
     flex: 0 1 auto;
     margin: 5px;
     text-align: center;
-    /* height: 80% */
 }
 
 .text-div{
@@ -80,7 +75,10 @@ button:hover + .hidden-text{
     align-items: center;
     justify-content: space-around;
     height: 100%;
-    /* width: 100%; */
+}
+
+.portfolio{
+    overflow-y: scroll;
 }
 
 .xp-div{
@@ -90,9 +88,8 @@ button:hover + .hidden-text{
 }
 
 .expanded{
-    z-index: 10000;
-    flex: 3 1 auto;
-    transition:flex 1s ease-out;
+    flex: 3 1 100%;
+    transition:flex 0.75s ease-in;
 }
 
 .shrink{

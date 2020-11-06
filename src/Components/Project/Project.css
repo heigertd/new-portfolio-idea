@@ -1,5 +1,5 @@
 .pimg{
-    max-width: 60%;
+    max-width: 100%;
 }
 
 .project-img{
@@ -22,11 +22,12 @@
 .project-div{
     text-align: center;
     width: 372px;
-    /* height: 10%; */
-    border: 5px solid black;
+    border: 5px solid rgb(247, 185, 166);
     background: rgb(247, 185, 166);
     border-radius: 15px;
     margin-bottom: 4px;
+    flex-basis: 25%;
+    box-shadow: 10px 10px #000000;
 }
 
 .text-div{
@@ -39,3 +40,19 @@
         width: 90%;
     }
 }
+
+/* .project-div{
+    width:25%;
+    border: 5px solid black;
+    background: rgb(247, 185, 166);
+    border-radius: 15px;
+}
+
+.img-div{
+    height: 50%;
+    width: auto;
+}
+
+.pimg{
+    width: 100%;
+} */
