@@ -1,0 +1,41 @@
+.pimg{
+    max-width: 60%;
+}
+
+.project-img{
+    display: flex;
+}
+
+.img-div{
+    position: relative;
+}
+
+.techs-div{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+.project-div{
+    text-align: center;
+    width: 372px;
+    /* height: 10%; */
+    border: 5px solid black;
+    background: rgb(247, 185, 166);
+    border-radius: 15px;
+    margin-bottom: 4px;
+}
+
+.text-div{
+    position: relative;
+}
+
+@media only screen and (max-width: 806px){
+    .project-div{
+        text-align: center;
+        width: 90%;
+    }
+}

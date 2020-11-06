@@ -33,6 +33,38 @@ export const data = [
         ],
 
     },
+    {
+       projects: [
+            {
+                title: 'SRG Photography',
+                description: 'Worked with the client to get her Pricing page online',
+                techs: 'Svelte',
+                img: '../../images/cardigan.jpg',
+    
+            },
+            {
+                title: 'Pack Mule',
+                description: 'Full-stack application meant to connect hikers with people to carry their supplies',
+                techs: 'React.js MySql',
+                img: '../../images/cardigan.jpg',
+    
+            },
+            {
+                title: 'Mody',
+                description: 'Full-stack group project where users can create an vote on tournament style brackets',
+                techs: 'HTML CSS Javascript MySql',
+                img: '../../images/cardigan.jpg',
+    
+            },
+            {
+                title: 'Social Distance',
+                description: 'Group project where users can read the news on the Social side or find distractions and get away on the Distance side',
+                techs: 'HTML CSS Javascript',
+                img: '../../images/cardigan.jpg',
+    
+            },
+        ]
+    }
 ]
 
 export default data;

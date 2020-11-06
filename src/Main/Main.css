@@ -1,3 +1,7 @@
+h1{
+    margin-top: 0;
+}
+
 button{
     background: none;
     border: none;
@@ -18,6 +22,11 @@ button:hover + .hidden-text{
     transition: max-height 2s ease-out;
 }
 
+.all-div{
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
 .hidden-text{
     max-height: 0;
     overflow: hidden;
@@ -35,8 +44,9 @@ button:hover + .hidden-text{
 .box1, .box2, .box3{
     display: flex;
     flex: 1 1 auto;
+    /* height: 89vh; */
     margin: 4px;
-    overflow: hidden;
+    /* overflow: scroll; */
     /* justify-content: center; */
     border: 5px black solid;
     border-radius: 15px;
@@ -81,7 +91,7 @@ button:hover + .hidden-text{
 
 .expanded{
     z-index: 10000;
-    flex: 3 1 100%;
+    flex: 3 1 auto;
     transition:flex 1s ease-out;
 }
 
@@ -91,6 +101,12 @@ button:hover + .hidden-text{
 
 .hidden{
     display: none;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 @media only screen and (max-width: 480px){
@@ -113,5 +129,15 @@ button:hover + .hidden-text{
     .text-div{
         flex: 1 1 45%;
         margin: 5px;
+    }
+
+    .content-div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        height: 50vh;
+        overflow: scroll;
+        /* width: 100%; */
     }
 }
