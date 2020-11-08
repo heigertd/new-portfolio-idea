@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Me from '../images/cardigan.jpg';
+import Me from '../images/imageedit_3_6701281239.png';
 import Mody from '../images/Mody.png';
 import Sav from '../images/Screenshot (51).png';
 import Mule from '../images/Screenshot (24).png';
@@ -84,13 +84,15 @@ export default function Main() {
                         <button value = 'box3' onClick = {big}>Contact Center</button>
                     </div>
                     <div className={bigState === 'box3'? 'contact' : 'hidden'}>
-                    <div className = 'button-div'>
+                        <div className = 'button-div'>
                             <button onClick = {small}>X</button>
                         </div>
                         <div className = 'content-div'>
-                            <Contact />
+                            <h3><a href='https://github.com/heigertd'>GitHub</a></h3>
+                            <h3><a href='https://linkedin.com/in/devin-heigert-2459a319b'>LinkedIn</a></h3>
+                            <h3>Email: heigertd@gmail.com</h3>
                         </div>
-                    </div>
+                    </div>    
                 </div>
             </div>
         </div>
