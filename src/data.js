@@ -20,7 +20,7 @@ export const data = [
             },
             {
                 image: "https://img.icons8.com/windows/60/000000/nodejs.png",
-                title: 'Node/Express.js'
+                title: 'Node.js'
             },
             {
                 image: "https://img.icons8.com/ios-filled/60/000000/mysql-logo.png",
@@ -29,6 +29,10 @@ export const data = [
             {
                 image: "https://img.icons8.com/color/60/000000/mongodb.png",
                 title: 'Mongo'
+            },
+            {
+                image: "https://img.icons8.com/wired/64/000000/svetle.png",
+                title: 'Svelte'
             },
         ],
 

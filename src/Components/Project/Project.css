@@ -26,7 +26,7 @@
     background: rgb(247, 185, 166);
     border-radius: 15px;
     margin-bottom: 4px;
-    flex-basis: 25%;
+    flex-basis: 20%;
     box-shadow: 10px 10px #000000;
 }
 
@@ -40,19 +40,3 @@
         width: 90%;
     }
 }
-
-/* .project-div{
-    width:25%;
-    border: 5px solid black;
-    background: rgb(247, 185, 166);
-    border-radius: 15px;
-}
-
-.img-div{
-    height: 50%;
-    width: auto;
-}
-
-.pimg{
-    width: 100%;
-} */
