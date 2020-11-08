@@ -1,5 +1,4 @@
 import React from 'react';
-import Me from '../../images/cardigan.jpg';
 import './Project.css'
 
 export default function Project(props) {
@@ -12,6 +11,9 @@ export default function Project(props) {
             </div>
             <div className = 'text-div'>
                 <p>{props.description}</p>
+            </div>
+            <div>
+                <a href = {props.depolyedSite} target="_blank">Deployed Site</a>
             </div>
         </div>
     )

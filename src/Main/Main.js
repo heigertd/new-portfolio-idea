@@ -7,16 +7,13 @@ import Social from '../images/social-distance.png';
 import data from '../data.js';
 import Experience from '../Components/Experience/Experience';
 import Project from '../Components/Project/Project';
-import Contact from '../Components/Contact/Contact';
 import './Main.css';
-
-//TODO: 
 
 export default function Main() {
     const [bigState, setBigState] = useState([]);
 
     useEffect(() => {
-        setBigState('box3');
+        setBigState('');
     }, [])
 
     function big(e){
@@ -71,10 +68,10 @@ export default function Main() {
                             <button onClick = {small}>X</button>
                         </div>
                         <div className = 'content-div'>
-                            <Project img = {Sav} tech = {data[1].projects[0].techs} description = {data[1].projects[0].description} title = {data[1].projects[0].title} />
-                            <Project img = {Mule} tech = {data[1].projects[1].techs} description = {data[1].projects[1].description} title = {data[1].projects[1].title} />
-                            <Project img = {Mody} tech = {data[1].projects[2].techs} description = {data[1].projects[2].description} title = {data[1].projects[2].title} />
-                            <Project img = {Social} tech = {data[1].projects[3].techs} description = {data[1].projects[3].description} title = {data[1].projects[3].title} />
+                            <Project img = {Sav} tech = {data[1].projects[0].techs} description = {data[1].projects[0].description} title = {data[1].projects[0].title} depolyedSite = {data[1].projects[0].depolyedSite} />
+                            <Project img = {Mule} tech = {data[1].projects[1].techs} description = {data[1].projects[1].description} title = {data[1].projects[1].title} depolyedSite = {data[1].projects[1].depolyedSite} />
+                            <Project img = {Mody} tech = {data[1].projects[2].techs} description = {data[1].projects[2].description} title = {data[1].projects[2].title} depolyedSite = {data[1].projects[2].depolyedSite} />
+                            <Project img = {Social} tech = {data[1].projects[3].techs} description = {data[1].projects[3].description} title = {data[1].projects[3].title} depolyedSite = {data[1].projects[3].depolyedSite} />
                         </div>
                     </div>
                 </div>

@@ -3,4 +3,10 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    color: rgb(33, 219, 204);
 }
+
+.experience-div:hover{
+    transform: scale(1.1);
+    color: black;
+ }
