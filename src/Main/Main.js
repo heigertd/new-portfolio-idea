@@ -6,16 +6,17 @@ import Mule from '../images/Screenshot (24).png';
 import Social from '../images/social-distance.png';
 import data from '../data.js';
 import Experience from '../Components/Experience/Experience';
-import Project from '../Components/Project/Project'
+import Project from '../Components/Project/Project';
+import Contact from '../Components/Contact/Contact';
 import './Main.css';
 
-//TODO: Add svelte to experience
+//TODO: 
 
 export default function Main() {
     const [bigState, setBigState] = useState([]);
 
     useEffect(() => {
-        setBigState('box1');
+        setBigState('box3');
     }, [])
 
     function big(e){
@@ -65,7 +66,7 @@ export default function Main() {
                         <div className = 'color-block'></div>
                         <button value = 'box2' onClick = {big}>Portfolio Place</button>
                     </div>
-                    <div className={bigState === 'box2'? 'portfolio' : 'hidden'}>
+                    <div className={bigState === 'box2'? '' : 'hidden'}>
                         <div className = 'button-div'>
                             <button onClick = {small}>X</button>
                         </div>
@@ -82,9 +83,13 @@ export default function Main() {
                         <div className = 'color-block'></div>
                         <button value = 'box3' onClick = {big}>Contact Center</button>
                     </div>
-                    <div className={bigState === 'box3'? '' : 'hidden'}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <button onClick = {small}>Smaller</button>
+                    <div className={bigState === 'box3'? 'contact' : 'hidden'}>
+                    <div className = 'button-div'>
+                            <button onClick = {small}>X</button>
+                        </div>
+                        <div className = 'content-div'>
+                            <Contact />
+                        </div>
                     </div>
                 </div>
             </div>

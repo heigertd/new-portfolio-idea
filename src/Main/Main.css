@@ -82,6 +82,7 @@ button:hover{
 .text-div{
     flex: 0 1 45%;
     margin: 5px;
+    
 }
 
 .button-div{
@@ -98,6 +99,14 @@ button:hover{
     align-items: center;
     justify-content: space-around;
     height: 100%;
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 
