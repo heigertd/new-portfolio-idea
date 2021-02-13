@@ -1,0 +1,23 @@
+.portfolio-section{
+    margin: 50px;
+}
+
+.portfolio-content-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--highlight-color);
+    /* background-color: whitehigh; */  
+}
+
+@media only screen and (max-width: 806px){
+    .portfolio-section{
+        width: 96vw;
+        margin: 20px 0;
+    }
+}

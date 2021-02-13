@@ -1,7 +1,7 @@
 export const data = [
     {
         page: 'About',
-        con1: 'I am a Seattle-based web developer. I started web development after a friend of mine showed me a web site he had built by himself. The process intrigued me and I started teaching myself some basic coding with some help from some friends. Eventually I decided I needed some more structured training and eventually recieved my full-stack certification through the University of Washington.',
+        con1: 'I am a Seattle-based web developer. I started web development after a friend of mine showed me a web site he had built by himself. The process intrigued me and I started teaching myself some basic coding with some help from some friends. Eventually I decided I needed some more structured training and eventually recieved my full-stack certification through the University of Washington. Since then I have been learning and practicing new skills. I have focused on front-end development but do have experience with back-end development as well.',
         xp: [{
                 image: "https://img.icons8.com/material-outlined/60/000000/html-5.png",
                 title: 'HTML'
@@ -41,30 +41,26 @@ export const data = [
        projects: [
             {
                 title: 'SRG Photography',
-                description: 'Worked with the client to get her Pricing page online',
+                description: 'I worked with the client to get her Pricing page on to her photography website',
                 techs: 'Svelte',
                 img: '../../images/cardigan.jpg',
+                depolyedSite: 'https://srgphoto.video/#/pricing'
     
             },
             {
-                title: 'Pack Mule',
-                description: 'Full-stack application meant to connect hikers with people to carry their supplies',
-                techs: 'React.js MySql',
+                title: 'Misbach Enterprises',
+                description: 'A site I did for a Utah based geneology company',
+                techs: 'React.js',
                 img: '../../images/cardigan.jpg',
+                depolyedSite: 'http://misbach.org/#/'
     
             },
             {
-                title: 'Mody',
-                description: 'Full-stack group project where users can create an vote on tournament style brackets',
-                techs: 'HTML CSS Javascript MySql',
+                title: 'Fake Coffee',
+                description: 'A mock up for a potential website for a coffee shop',
+                techs: 'React.js',
                 img: '../../images/cardigan.jpg',
-    
-            },
-            {
-                title: 'Social Distance',
-                description: 'Group project where users can read the news on the Social side or find distractions and get away on the Distance side',
-                techs: 'HTML CSS Javascript',
-                img: '../../images/cardigan.jpg',
+                depolyedSite: 'https://fake-coffee.vercel.app/'
     
             },
         ]

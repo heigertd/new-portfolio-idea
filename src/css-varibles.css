@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root{
+  --title-font: 'Righteous', cursive;
+  --sub-title: 'Source Code Pro', monospace;
+  --content-text: 'Open Sans', sans-serif;
+  --highlight-color: rgba(99, 199, 178);
+  --base-color: rgb(39, 48, 67);
+  --section-title-background-color: rgb(227, 215, 255);
+}
