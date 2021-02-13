@@ -10,7 +10,7 @@ export default function Portfolio() {
     return (
     <div className = 'portfolio-section'>
         <div className = 'about-title-div'>
-                <h1>Portfolio Place</h1>
+                <h1>Portfolio</h1>
             </div>
         <div className = 'portfolio-content-div'>
             <Project img = {Sav} tech = {data[1].projects[0].techs} description = {data[1].projects[0].description} title = {data[1].projects[0].title} depolyedSite = {data[1].projects[0].depolyedSite} />
