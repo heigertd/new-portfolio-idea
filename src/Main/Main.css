@@ -1,133 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
 .name-div{
     margin: 0;
     width: 100vw;
     text-align: center;
-    color: white; 
-    font-family: 'Righteous', cursive;
+    color: var(--highlight-color); 
+    font-family: var(--title-font);
     font-size: xx-large;
 }
 
-button{
-    background: none;
-    border: none;
-    font-size: xx-large;
-    color: black;
-    height: 50%;
-    font-family: 'Source Code Pro', monospace;
-}
-
-button:hover{
-    color: rgb(221, 112, 108);
+.section-title{
+    font-family: var(--sub-title);
+    color: var(--highlight-color); 
 }
 
 
 .all-div{
     height: 100vh;
     overflow-x: hidden;
-}
 
-.hidden-text{
-    max-height: 0;
-    overflow: hidden;
-}
-
-.main-content{
-    display: flex;
-    justify-content: space-around;
-    min-height:70vh;
-    width: 99vw;
-}
-
-.unhidden{
     display: flex;
     flex-direction: column;
-    width: 100%;
-}
-
-.color-block{
-    height: 25%;
-    background: rgb(221, 112, 108);
-    border-radius: 6px 6px 0px 0px;
-    border-bottom: 4px black solid; 
-}
-
-.box1, .box2, .box3{
-    display: flex;
-    flex: 1 1 100%;
-    margin: 0 5px;
-    border: 4px black solid;
-    border-radius: 10px;
-    z-index:0;
-    background: rgb(33, 219, 204);
-    transition:flex 0.5s ease-out;
-}
-
-.img-div{
-    flex: 0 1 auto;
-    margin: 5px;
-    text-align: center;
-}
-
-.text-div{
-    flex: 0 1 45%;
-    margin: 5px;
-    
-}
-
-.button-div{
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    background: rgb(221, 112, 108);
-    border-bottom: 4px black solid;
-    border-radius: 6px 6px 0px 0px;
-}
-
-.content-div{
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    height: 100%;
-    width: 100%;
-}
-
-.contact{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
 }
 
 
-.xp-div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.expanded{
-    flex: 3 1 100%;
-    margin: 0;
-    transition:flex 0.75s ease-in;
-}
-
-.shrink{
-    flex: 0.2;
-}
-
-.hidden{
-    display: none;
-}
-
-.projects{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
 
 @media only screen and (max-width: 480px){
     .main-content{

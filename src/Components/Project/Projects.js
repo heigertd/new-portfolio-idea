@@ -7,9 +7,9 @@ export default function Project(props) {
             <h3>{props.title}</h3>
             <div className = 'img-div'>
                 <img className = 'pimg' src={props.img} />
-                <div className = 'techs-div'>Technology used: {props.tech}</div>
             </div>
             <div className = 'text-div'>
+                <div className = 'techs-div'>Technology used: {props.tech}</div>
                 <p>{props.description}</p>
             </div>
             <div>
