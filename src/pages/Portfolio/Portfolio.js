@@ -4,7 +4,7 @@ import FakeCoffee from '../../images/Screenshot (63).png';
 import Sav from '../../images/Screenshot (51).png';
 import Misbach from '../../images/Screenshot (62).png';
 import Wiki from '../../images/Screenshot (66).png';
-import Blog from '../../images/Screenshot (66).png';
+import Blog from '../../images/Screenshot (68).png';
 import data from '../../data.js';
 import Project from '../../Components/Project/Projects';
 
