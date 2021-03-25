@@ -34,6 +34,10 @@ export const data = [
                 image: "https://img.icons8.com/wired/64/000000/svetle.png",
                 title: 'Svelte'
             },
+            {
+                image: "https://img.icons8.com/ios/60/000000/php-logo.png",
+                title: 'PHP'
+            },
         ],
 
     },
