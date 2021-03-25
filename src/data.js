@@ -71,6 +71,14 @@ export const data = [
                 depolyedSite: 'https://wiki-events.vercel.app/'
     
             },
+            {
+                title: 'PHP Blog',
+                description: 'A blog where users can search through posts. There is also a content management system through the admin link. Use username: test password: test to access it.',
+                techs: 'HTML, CSS, Javascript, PHP',
+                img: '../../images/cardigan.jpg',
+                depolyedSite: 'https://devinphpblog.000webhostapp.com/index.php'
+    
+            },
         ]
     },
     {
